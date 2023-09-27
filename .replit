@@ -31,3 +31,7 @@ language = "nodejs"
 deploymentTarget = "static"
 build = ["sh", "-c", "npm run build"]
 publicDir = "dist"
+
+[auth]
+pageEnabled = true
+buttonEnabled = false
